@@ -1,5 +1,71 @@
 @charset "utf-8";
 
-header{
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#cabecalho{
     background-image: url('images/bg-hero-desktop.svg');
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:5px ;
+    grid-template-areas:
+    "secao-1 secao-2"
+    "secao-3 secao-4"
+    "secao-5 secao-6"
+    "secao-7 secao-8"
+    "secao-9 secao-10";
+}
+.tamanho-img{
+    width:  50vw;
+}
+.formata-txt{
+    text-align: center;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.txt-1{
+    grid-area: secao-1;    
+}
+.img-1{
+    grid-area: secao-2;
+}
+
+.txt-2{
+    grid-area: secao-3;
+    background-color: blue;
+}
+.img-2{
+    grid-area: secao-4;
+    background-color: chartreuse;
+}
+
+.txt-3{
+    grid-area: secao-5;
+    background-color: coral;
+}
+.img-3{
+    grid-area: secao-6;
+    background-color: rgb(255, 187, 0);
+}
+.txt-4{
+    grid-area: secao-7;
+    background-color: rgb(235, 18, 18);
+}
+.img-4{
+    grid-area: secao-8;
+    background-color: rgb(28, 233, 248);
 }
