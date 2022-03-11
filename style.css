@@ -1,71 +1,92 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 html, body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-
-#cabecalho{
     background-image: url('images/bg-hero-desktop.svg');
+    
+    background-color:  rgb(235, 251, 255);
+    
+}
+h1{
+    ;
 }
 .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px;
+    margin-bottom: 50px;
 }
 #container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap:5px ;
-    grid-template-areas:
-    "secao-1 secao-2"
-    "secao-3 secao-4"
-    "secao-5 secao-6"
-    "secao-7 secao-8"
-    "secao-9 secao-10";
+    grid-template-areas: 
+    "A B"
+    "C D"
+    "E F"
+    "G H"
+    "I I";
+    row-gap: 200px;
 }
-.tamanho-img{
-    width:  50vw;
-}
-.formata-txt{
-    text-align: center;
+#txt-1{
+    grid-area: A;
     font-size: 1.5rem;
     align-self: center;
+    padding: 20px;
+}
+#txt-1 > h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+}
+#txt-1 > p{
+
+}
+#img-1{
+    grid-area: B;
+    padding: 15px;
+    margin: 10px;
 }
 
-.txt-1{
-    grid-area: secao-1;    
+#txt-2{
+    grid-area: C;
+    font-size: 1rem;
+    align-self: center;
+    padding: 20px;
 }
-.img-1{
-    grid-area: secao-2;
-}
-
-.txt-2{
-    grid-area: secao-3;
-    background-color: blue;
-}
-.img-2{
-    grid-area: secao-4;
-    background-color: chartreuse;
+#img-2{
+    grid-area: D;
+    justify-self: center;
 }
 
-.txt-3{
-    grid-area: secao-5;
-    background-color: coral;
+#txt-3{
+    grid-area: F;
+    font-size: 1rem;
+    align-self: center;
+    padding: 20px;
 }
-.img-3{
-    grid-area: secao-6;
-    background-color: rgb(255, 187, 0);
+#img-3{
+    grid-area: E;
+    justify-self: center;
 }
-.txt-4{
-    grid-area: secao-7;
-    background-color: rgb(235, 18, 18);
+
+#txt-4{
+    grid-area: G;
+    font-size: 1rem;
+    align-self: center;
+    padding: 20px;
 }
-.img-4{
-    grid-area: secao-8;
-    background-color: rgb(28, 233, 248);
+#img-4{
+    grid-area: H;
+    justify-self: center;
+}
+
+#chamada-acao{
+    grid-area: I;
+    text-align: center;
 }
