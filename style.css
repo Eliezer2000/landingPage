@@ -172,3 +172,7 @@ p{
     padding-top: 80px;
     height: 500px;
 }
+#rodape{
+    display: grid;
+    grid-template-columns: ;
+}
