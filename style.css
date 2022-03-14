@@ -167,12 +167,9 @@ p{
 
 
 #rodape{
-    background-color: rgb(0, 37, 46);
+    background-color: rgba(0, 37, 46, 0.89);
     color: white;
-    padding-top: 80px;
-    height: 500px;
+    display: flex;
 }
-#rodape{
-    display: grid;
-    grid-template-columns: ;
-}
+
+   
