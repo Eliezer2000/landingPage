@@ -2,18 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- exibe o site corretamente com base no dispositivo do usuário -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
-  <!-- Sinta-se à vontade para remover esses estilos ou personalizar em sua própria folha de estilo 👍 -->
+
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/cabecalho.css">
+  <link rel="stylesheet" href="css/conteudo.css">
+  <link rel="stylesheet" href="css/rodape.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+      
+  
 </head>
 <body>
 
@@ -77,46 +81,44 @@
 
 
     <footer id="rodape">
-
-      <div class="box-1">
-        <ul>
-          <li><img class="logo-rodape" src="images/logo.svg" alt=""></li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua</li>
-          <li>+1-543-123-4567</li>
-          <li><a href="mailto:example@huddle.com">example@huddle.com</a></li>
-        </ul>
-      </div>
-
+        <div class="box">
+          <ul class="container-rodape">
+            <li><h1><img class="logo-rodape" src="images/logo.svg" alt=""></h1></li>
+            <li class="A">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </li>
+            <li class="B">
+             +1-543-123-4567</li>
+            <li class="C">
+              <a href="mailto:example@huddle.com">example@huddle.com</a></li>
+          </ul>
+        </div>
+        
+        
+        <div class="box box-center">
+          <ul>
+            <li><a href="">About Us</a></li>
+            <li><a href="">What We Do</a></li>
+            <li><a href="">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="box box-center">
+          <ul>
+            <li><a href="">Career</a></li>
+            <li> <a href=""> Blog</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="box box-center box-item">
+          <ul>
+            <li><a href="https://pt-br.facebook.com/" target="_blank"><img src="images/facebook (2).png" width="24px" height="24px" alt=""></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><img src="images/twitter (1).png" width="24px" height="24px" alt=""></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instagram (1).png" width="24px" height="24px" alt=""></a></li>
+            <li><p class="copy">&copy; Copyright 2018 Huddle.All rights reserved.</p></li>
+          </ul>
+        </div>
       
-      <div class="box-2">
-        <ul>
-          <li><a href="">About Us</a></li>
-          <li><a href="">What We Do</a></li>
-          <li><a href="">FAQ</a></li>
-        </ul>
-      </div>
-
-      <div class="box-3">
-        <ul>
-          <li><a href="">Career</a></li>
-          <li> <a href=""> Blog</a></li>
-          <li><a href="">Contact Us</a></li>
-        </ul>
-      </div>
-
-      
-      <div class="box-4">
-        <ul>
-          <li><a href=""><img src="images/facebook (2).png" width="24px" height="24px" alt=""></a></li>
-          <li><a href=""><img src="images/twitter (1).png" width="24px" height="24px" alt=""></a></li>
-          <li><a href=""><img src="images/instagram (1).png" width="24px" height="24px" alt=""></a></li>
-        </ul>
-      </div>
-
-      <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
-
     </footer>
-
 </body>
 </html>
