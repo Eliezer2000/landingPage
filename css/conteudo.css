@@ -15,10 +15,7 @@
     "I I";
     row-gap: 200px;
 }
-.bg{
-    grid-area: A B;
-    background-image: url('images/bg-hero-desktop.svg');
-}
+
 #txt-1{
     grid-area: A;
     font-size: 1.5rem;
