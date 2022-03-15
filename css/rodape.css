@@ -1,7 +1,13 @@
+@charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 footer{
     background-color: rgba(0, 37, 46, 0.89);
+    font-family:'Open Sans', sans-serif;
+    font-size: 0.8rem;
     color: white;
     display: flex;
     height:400px;
@@ -19,12 +25,15 @@ footer{
 }
 .box:nth-child(2){
     width: 200px;
+    font-size: 0.9rem;
 }
 .box:nth-child(3){
     width: 200px;
+    font-size: 0.9rem;
 }
 .box-center{
     align-self: flex-start;
+    margin-top: 200px;
 }
 .container-rodape{
     width: 400px;
@@ -39,4 +48,22 @@ footer{
 }
 .box .C{
     list-style-image: url('../images/icon-email.svg');
+}
+.box-item li{
+    display: inline;
+    margin: 0px 10px;
+}
+.copy{
+    position: relative;
+    font-size: 0.7rem;
+    text-align: start;
+    justify-self: end;
+    margin-top: 100px;
+    color: white;
+}
+.box  ul li:hover{
+    color: rgb(161, 157, 157);
+}
+.box ul li a:hover{
+    color:rgb(161, 157, 157);
 }
