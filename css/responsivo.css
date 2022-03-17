@@ -28,6 +28,7 @@
     #container {
         display: grid;
         grid-template-columns: 100vw;
+        grid-template-rows: auto;
         grid-template-areas:
             "A"
             "B"
@@ -39,7 +40,7 @@
             "H"
             "I"
             "J";
-        row-gap: 100px;
+            row-gap: 0px;
     }
     #txt-1{
         grid-area: A;
@@ -68,13 +69,12 @@
         border-radius: 40px;
         border: none;
         font-size: 16px;
-        padding: auto 40px;
+        padding: auto 20px;
         color: white;
         text-align: center;
         text-decoration: none;
         display: block;
-        margin-left: auto;
-        margin-right: auto
+        margin: 40px auto 0px auto;
     }
     #button-2:hover {
         background-color: rgba(255, 82, 192, 0.5);;
@@ -84,17 +84,105 @@
     #img-1{
         grid-area: B;
         padding: 15px;
-        margin: 10px
-px
-;
-    position: relative;
-    bottom: 90px;
+        margin: 10px;
+        
     }
     #img-1 img{
-        display: block;
         margin-top: 0px;
         margin-left: auto;
         margin-right: auto;
         width: -webkit-fill-available;
+    }
+    #img-2{
+        grid-area: C;
+        justify-self: center;
+    }
+    #img-2 img{
+        width: 350px;
+        margin-top: 0px;
+        margin: auto;
+        
+    }
+    #txt-2{
+        grid-area: D;
+        font-size: 1rem;
+        align-self: flex-start;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 60px;
+    }
+    #img-3{
+        grid-area: E;
+        justify-self: center;
+    }
+
+    #img-3 img{
+        width: 350px;
+        margin-top: 0px;
+        margin: auto;
+    }
+    #txt-3{
+        grid-area: F;
+        font-size: 1rem;
+        align-self: flex-start;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 60px;
+    }
+    #img-4{
+        grid-area: G;
+        justify-self: center;
+    }
+    #img-4 img{
+        width: 350px;
+        margin-top: 0px;
+        margin: auto;
+    }
+    #txt-4{
+        grid-area: H;
+        font-size: 1rem;
+        align-self: flex-start;
+        text-align: center;
+        padding: 20px;
+    }
+    .caixa{
+        text-align: center;
+        font-size: 1rem;
+        background-color: rgb(220, 234, 238);
+        width: 340px;
+        height: 210px;
+        border-radius: 17px;
+        position: relative;
+        top: 80px;
+    }
+    #button-3{
+        background-color: rgb(255, 82, 191);
+        width: 250px;
+        height: 65px;
+        border-radius: 40px;
+        border: none;
+        font-size: 18px;
+        padding: auto 40px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0;
+    }
+    #button-3:hover {
+        background-color: rgba(255, 82, 192, 0.5);;
+        color: rgba(255, 255, 255, 0.747);
+        box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    footer{
+        background-color: rgba(0, 37, 46, 0.89);
+        font-family:'Open Sans', sans-serif;
+        font-size: 0.8rem;
+        color: white;
+        display: grid;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        height:auto;
     }
 }
