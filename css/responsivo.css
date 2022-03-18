@@ -1,12 +1,19 @@
 @charset "utf-8";
 
 @media screen and (min-width: 375px) and (max-width: 720px) {
+    html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(220, 234, 238);
+        width: max-content;
+    }
     .menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
-    margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+        width: auto;
 }
     .img-cabecalho{
         width: 120px;
