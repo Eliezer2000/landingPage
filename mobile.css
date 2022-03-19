@@ -85,5 +85,30 @@
     ul li a {
         flex-wrap: wrap;
     }
-    
+    .container-rodape{
+        width: 350px;
+        margin-left: 0px;
+    }
+    .container-rodape h1{
+        white-space: normal;
+    }
+    .box-center {
+        align-self: flex-start;
+        margin-top: 0px;
+    }
+    .box-item{
+        justify-items: center;
+        margin: auto;
+        padding-left: 0px;
+    }
+    .mobile-box ul{
+        padding-inline-start: 10px;  
+    }
+    .box-mobile-item{
+        text-align: center;
+        
+    }
+    .copy{
+        margin-top: 10px;
+    }
 }
