@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-footer{
+/*footer{
     background-color: rgba(0, 37, 46, 0.89);
     font-family:'Open Sans', sans-serif;
     font-size: 0.8rem;
@@ -67,4 +67,67 @@ footer{
 }
 .box ul li a:hover{
     color:rgb(161, 157, 157);
+}*/
+
+#rodape{
+    background-color: rgba(0, 37, 46, 0.692);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 1fr 1fr 1fr 1fr;
+    
+    
+}
+.logo-rodape{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    height: 20px;
+    align-self: center;
+}
+.lorem{
+    grid-column: 1/ 2;
+    grid-row: 3 / 4;
+}
+.cel{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.email{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.link-1{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3
+}
+.link-2{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.link-3{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.link-4{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3
+}
+.link-5{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+.link-6{
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+.items{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+.copy{
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
