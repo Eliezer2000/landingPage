@@ -1,114 +1,87 @@
 @charset "utf-8";
 @media (max-width:720px) {
-    header > img{
-        width: 120px;
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px;
+        padding: 10px;
     }
-    header > button {
-        width: 120px;
-        height: 30px
+    .menu img{
+        width: 140px;
+    }
+    #button-menu{
+        width: 100px;
+        height: 30px;
+        font-size: 0.9rem
     }
     #container{
         display: grid;
-        grid-template-columns: 373px;
-        grid-template-areas: 
-        "A"
-        "B"
-        "C"
-        "D"
-        "E"
-        "F"
-        "G"
-        "H"
-        "I"
-        "J";
-        row-gap: 0px;
+        grid-template-columns: 100vw;
+        grid-template-areas:
+            "A"
+            "B"
+            "C"
+            "D"
+            "E" 
+            "F"
+            "G"
+            "H"
+            "I" 
+            "j";
+        row-gap: 30px;
     }
-    #txt-1 {
+    #txt-1{
         grid-area: A;
-        font-size: 0.2rem;
-        text-align: center;
+        align-self: center;
         padding: 20px;
-        margin: auto;
+        text-align: center;
     }
     #txt-1 h1{
         font-size: 1.5rem;
     }
     #img-1 img{
-        width: -webkit-fill-available;
-        margin-bottom: 100px;
+        width: 90vw;
     }
     #img-2{
         grid-area: C;
     }
     #img-2 img{
-        width: 350px;
+        width: 80vw
     }
     #txt-2{
         grid-area: D;
         text-align: center;
-        margin-bottom: 100px;
     }
-    #img-3 img{
-        width: 370px;
+    #img-3{
+        width: 80vw;
     }
     #txt-3{
         text-align: center;
-        margin-bottom: 100px;
     }
     #img-4{
         grid-area: G;
     }
     #img-4 img{
-        width: 370px;
+        width: 80vw;
     }
     #txt-4{
         grid-area: H;
         text-align: center;
-        margin-bottom: 100px;
+    }
+    #chamada-acao{
+        grid-area: I;
     }
     .caixa{
-        width: 340px;
-        border-radius: 10px
+        width: 80vw;
+        overflow: hidden;
     }
-    #button-3{
-        width: 190px;
-        height: 45px;
-        font-size: 15px;
+    #buttom-3{
+        width: auto;
+        height: auto;
+        font-size: .9rem;
+        padding: 15px;
     }
-    footer{
-        display: grid;
-        grid-template-columns: 373px;
-        grid-template-rows: 1fr;
-        
-        row-gap: 0px;
-    }
-    ul li a {
-        flex-wrap: wrap;
-    }
-    .container-rodape{
-        width: 350px;
-        margin-left: 0px;
-    }
-    .container-rodape h1{
-        white-space: normal;
-    }
-    .box-center {
-        align-self: flex-start;
-        margin-top: 0px;
-    }
-    .box-item{
-        justify-items: center;
-        margin: auto;
-        padding-left: 0px;
-    }
-    .mobile-box ul{
-        padding-inline-start: 10px;  
-    }
-    .box-mobile-item{
-        text-align: center;
-        
-    }
-    .copy{
-        margin-top: 10px;
-    }
+
+
 }
