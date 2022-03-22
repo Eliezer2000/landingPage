@@ -84,6 +84,9 @@
     height: 20px;
     align-self: flex-start;
 }
+.logo-rodape img{
+    margin-left: 14px;
+}
 .lorem{
     grid-column: 1/ 2;
     grid-row: 3 / 4;
@@ -97,7 +100,9 @@
 .email{
     grid-column: 1 / 2;
     grid-row: 5 / 6;
+    align-self: baseline;
 }
+
 .link-1{
     grid-column: 2 / 3;
     grid-row: 3 / 4;
@@ -151,12 +156,11 @@ a{
     left: 24px;
 }
 .icon-lorem::before {
-    content: "\F3E8";
-    color: white;
+    content:url('../images/icon-location.svg');
 }
 .icon-cel::before{
-    content: "\f095";
+    content: url('../images/icon-phone.svg');
 }
 .icon-email::before{
-    content: "\f0e0";
+    content: url('../images/icon-email.svg');
 }
