@@ -15,7 +15,9 @@
     "I I";
     row-gap: 200px;
 }
-
+p:hover{
+    color: black;
+}
 #txt-1{
     grid-area: A;
     font-size: 1.5rem;
