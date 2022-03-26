@@ -54,7 +54,10 @@
         grid-area: D;
         text-align: center;
     }
-    #img-3 img{
+    #img-3{
+        grid-area: E;
+    }
+    article #img-3 img{
         width: 80vw;
     }
     #txt-3{
