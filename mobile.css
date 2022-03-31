@@ -143,6 +143,7 @@
     .copy{
         grid-area: M;
         text-align: center;
+        align-self: flex-end;
     }
   
 
