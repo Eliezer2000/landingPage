@@ -77,15 +77,73 @@
         grid-area: I;
     }
     .caixa{
-        width: 80vw;
+        width: 90vw;
         overflow: hidden;
+        padding-bottom: 30px;
     }
-    #buttom-3{
-        width: auto;
+    #button-3{
+        width: 60vw;
         height: auto;
         font-size: .9rem;
         padding: 15px;
     }
-
+    #rodape{
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1fr 1fr 1fr 1fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 1fr 1fr;
+        grid-template-areas:
+        "A"
+        "B"
+        "C"
+        "D"
+        "E"
+        "F"
+        "G"
+        "H"
+        "I"
+        "J"
+        "K"
+        "L"
+        "M";
+    }
+    .link-1{
+        grid-area: F;
+        text-align: start;
+        padding: 10px 25px;
+    }
+    .link-2{
+        grid-area: G;
+        text-align: start;
+        padding: 10px 25px;
+    }
+    .link-3{
+        grid-area: H;
+        text-align: start;
+        padding: 10px 25px;
+    }
+    .link-4{
+        grid-area: I;
+        text-align: start;
+        padding: 10px 25px;
+    }
+    .link-5{
+        grid-area: J;
+        text-align: start;
+        padding: 10px 25px;
+    }
+    .link-6{
+        grid-area: K;
+        text-align: start;
+        padding: 10px 25px;
+    }
+    .items{
+        grid-area: L;
+        text-align: center;
+        align-self: flex-end;
+    }
+    .copy{
+        grid-area: M;
+        text-align: center;
+    }
+  
 
 }
