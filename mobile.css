@@ -138,7 +138,7 @@
     .items{
         grid-area: L;
         text-align: center;
-        align-self: flex-end;
+        align-self: center;
     }
     .copy{
         grid-area: M;
