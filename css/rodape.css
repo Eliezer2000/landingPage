@@ -89,7 +89,7 @@
 .lorem{
     grid-column: 1/ 2;
     grid-row: 3 / 4;
-    color: rgb(180, 168, 168);
+    color: white;
     font-size: .9rem;
 }
 .cel{
@@ -149,13 +149,16 @@
 }
 a{
     text-decoration: none;
-    color: rgb(180, 168, 168);
+    color: white;
 }
 a:hover{
+    color: rgb(180, 168, 168);
+}
+footer p{
     color: white;
 }
 footer p:hover{
-    color: white;
+    color: rgb(180, 168, 168);
 }
 .icon-link{
     padding-left: 60px;
