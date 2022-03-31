@@ -143,11 +143,6 @@
     .copy{
         grid-area: M;
         text-align: center;
-        
-    }
-    p .copy{
         align-self: center;
     }
-  
-
 }
