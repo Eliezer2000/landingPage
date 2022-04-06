@@ -1,32 +1,36 @@
-# Landing Page 
-## Landing Page construída para Desktop e dispositivos móveis.
+<h1 align="center"> Huddle Landing Page</h1> 
+<div align="center"> <img  src="https://github.com/Eliezer2000/landingPage/blob/main/images/logo.svg"> </div>
+
  
- ### Landing Page na versão Desktop
- <div style="display: inline_block">
-      <img width= 500px height= auto src="https://github.com/Eliezer2000/landingPage/blob/main/imgDeskop/InShot_20220404_171856325.jpg">
-      <img width= 500px height= auto src="https://github.com/Eliezer2000/landingPage/blob/main/imgDeskop/InShot_20220404_172549578.jpg">
-      <img width= 500px height= auto src="https://github.com/Eliezer2000/landingPage/blob/main/imgDeskop/InShot_20220404_172456147.jpg">
-      <img width= 500px height= auto src="https://github.com/Eliezer2000/landingPage/blob/main/imgDeskop/InShot_20220404_172405652.jpg">
-      <img width= 500px height= auto src="https://github.com/Eliezer2000/landingPage/blob/main/imgDeskop/InShot_20220404_172215408.jpg">
-      <img width= 500px height= auto src="https://github.com/Eliezer2000/landingPage/blob/main/imgDeskop/InShot_20220404_172309304.jpg">
- </div>
+ <h2>Descrição:</h2>
+ <ul>
+ <li>Uma Landing Page criada com disponibilidade para dispositivos Desktops e Mobile.</li>
+ </ul>
  
- ### Landing Page na versão mobile
- <div style="display: inline_block">
-    <img width= 400px height= 780px src="https://github.com/Eliezer2000/landingPage/blob/main/imgMobile/InShot_20220404_174452059.jpg">
-    <img width= 400px height= auto src="https://github.com/Eliezer2000/landingPage/blob/main/imgMobile/InShot_20220404_174536401.jpg">
-    <img width= 400px height= auto src="https://github.com/Eliezer2000/landingPage/blob/main/imgMobile/InShot_20220404_174608043.jpg">
-    <img width= 400px height= auto src="https://github.com/Eliezer2000/landingPage/blob/main/imgMobile/InShot_20220404_174747319.jpg">
-    <img width= 400px height= auto src="https://github.com/Eliezer2000/landingPage/blob/main/imgMobile/InShot_20220404_174813854.jpg">
-    <img width= 400px height= auto src="https://github.com/Eliezer2000/landingPage/blob/main/imgMobile/InShot_20220404_174855428.jpg">
- </div>
+ ***
+ 
+ <h2>Tecnologias:</h2>
+ <ul>
+ <li>Html5</li>
+ <li>Css3 (Grid layout)</li>
+ </ul>
+ 
+ ***
+ <h2>Responsividade:</h2>
+ 
+ - [x] Dispositivos Desktops:
+ 
+ ![20220405_222031](https://user-images.githubusercontent.com/95540848/161877275-a12a87c9-807d-4847-bb7e-716b8fff2f6b.gif)
  
  
+ - [x] Dispositivos Mobile:
  
  
  ![20220405_221316](https://user-images.githubusercontent.com/95540848/161876193-3ed0b3ab-753b-4ebd-b94f-89a6f23c59ed.gif)
  
+ <h2>Licença:</h2>
  
+ ![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
  
  
  https://eliezer2000.github.io/landingPage/
