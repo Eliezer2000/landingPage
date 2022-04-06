@@ -1,4 +1,4 @@
-<h1 align="center"> Huddle Landing Page</h1> 
+<h1 align="center"> Huddle Landing Page</h1> </br>
 <div align="center"> <img  src="https://github.com/Eliezer2000/landingPage/blob/main/images/logo.svg"> </div>
 
  
