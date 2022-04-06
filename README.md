@@ -5,6 +5,7 @@
  <h2>Descrição:</h2>
  <ul>
  <li>Uma Landing Page criada com disponibilidade para dispositivos Desktops e Mobile.</li>
+ <li>🎯 Esse projeto foi um desafio do Site:
  </ul>
  
  ***
@@ -36,6 +37,9 @@
  ## 🛠️ Abrir e rodar o projeto:
  
   🔎 [Acessar Landing Page](https://eliezer2000.github.io/landingPage/)
+ 
+ 
+ ## Créditos:
  
  
  
