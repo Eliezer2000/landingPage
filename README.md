@@ -30,7 +30,7 @@
  
  <h2>Licença:</h2>
  
- ![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
+ ![](https://img.shields.io/github/license/Eliezer2000/landingPage)
  
  
  https://eliezer2000.github.io/landingPage/
