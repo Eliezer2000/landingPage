@@ -33,5 +33,11 @@
  ![](https://img.shields.io/github/license/Eliezer2000/landingPage)
  
  
- https://eliezer2000.github.io/landingPage/
+ ## 🛠️ Abrir e rodar o projeto:
+ 
+  🔎 [Acessar Landing Page](https://eliezer2000.github.io/landingPage/)
+ 
+ 
+ 
+ 
  
